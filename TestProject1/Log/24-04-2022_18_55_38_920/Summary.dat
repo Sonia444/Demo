@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test0">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="44675.7886460648"/>
+						<Prp name="duration" type="I" value="5908"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="durationwithoutchildren" type="I" value="5908"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBCADcAOAA0AEQAOAAyADEALQAzAEEAOAA3AC0ANAA4AEIANAAtAEEARQA1ADIALQBEADcARQBDAEMAMAAxADMAMAA3AEYANgB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="name" type="S" value="ProjectTestItem1"/>
+					</Node>
+				</Node>
+				<Prp name="starttime" type="D" value="44675.7886460648"/>
+				<Prp name="incompletedtests" type="I" value="0"/>
+				<Prp name="duration" type="I" value="5908"/>
+				<Prp name="failedtests" type="I" value="0"/>
+				<Prp name="warningtests" type="I" value="0"/>
+				<Prp name="name" type="S" value="TestProject1"/>
+			</Node>
+		</Node>
+		<Prp name="tests" type="I" value="1"/>
+		<Prp name="warningtestwithretries" type="I" value="0"/>
+		<Prp name="successtestwithretries" type="I" value="0"/>
+		<Prp name="starttime" type="D" value="44675.7886449074"/>
+		<Prp name="name" type="S" value="ProjectSuite16"/>
+		<Prp name="key" type="S" value="{3A3FA1F5-F653-4DC5-869A-551BDB89C926}"/>
+		<Prp name="incompletedtests" type="I" value="0"/>
+		<Prp name="failedtests" type="I" value="0"/>
+		<Prp name="warningtests" type="I" value="0"/>
+		<Prp name="host" type="S" value="DESKTOP-VL7KJFM"/>
+		<Prp name="stop" type="D" value="44675.788717338"/>
+		<Prp name="testname" type="S" value="TestProject1"/>
+		<Prp name="executionstatus" type="I" value="0"/>
+		<Prp name="user" type="S" value="dell"/>
+	</Node>
+</Nodes>
